@@ -1,0 +1,108 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.keep-logged-in {
+    margin-bottom: 20px;
+}
+
+.keep-logged-in input {
+    margin-right: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none; /* No border */
+    background: #007bff; /* Assuming you want a blue background, as common for login buttons */
+    color: white;
+    border-radius: 4px; /* Corrected property */
+    cursor: pointer;
+}
+
+
+.login-button:hover {
+    background: #0056b3;
+}
+
+.login-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 5px;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-button {
+    padding: 10px;
+    border: none;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.social-button.google { background: white}
+.social-button.google { color: red}
+.social-button.google { border: 2px solid red}
+.social-button.google { border-radius: 12px}
+
+
+.social-button.facebook { background: white; }
+.social-button.facebook { color: #2d4373;}
+.social-button.facebook { border: 2px solid  #2d4373;}
+.social-button.facebook { border-radius: 12px}
+
+.social-button.twitter { background: white; }
+.social-button.twitter { color: #0c85d0; }
+.social-button.twitter { border: 2px solid  #2d4373;}
+.social-button.twitter { border-radius: 12px}
+
+
+@media (max-width: 600px) {
+    .login-container {
+        margin: 20px;
+    }
+}
